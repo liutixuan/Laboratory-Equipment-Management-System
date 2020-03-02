@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="">
+       <siteMapNode url="~/首页.aspx" title="首页"  description="首页" />
+       <siteMapNode url="~/SQL办法.aspx" title="SQL办法"  description="SQL办法" />
+       <siteMapNode url="~/DataSet.aspx" title="DataSet办法"  description="DataSet办法" />
+       <siteMapNode url="~/AJAX.aspx" title="AJAX"  description="AJAX" />
+       <siteMapNode url="~/开发信息.aspx" title="开发信息"  description="开发信息" />
+       <siteMapNode url="~/Post.aspx" title="用户意见"  description="用户意见" />
+       <siteMapNode url="~/comment.aspx" title="意见回复"  description="意见回复" />
+  </siteMapNode>
+</siteMap>

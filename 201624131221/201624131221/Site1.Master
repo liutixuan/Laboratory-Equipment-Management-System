@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_201624131221.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            font-family: 新宋体;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style1" >
+            <br />
+            设备维护管理系统
+        </div><hr />
+        <div>
+            <br />
+
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Font-Size="XX-Large" Orientation="Horizontal" StaticDisplayLevels="2" StaticSubMenuIndent="54px" ToolTip="请点击" Width="1339px">
+                <DynamicHoverStyle Font-Bold="True" Font-Size="XX-Large" Width="600px" />
+                <DynamicMenuItemStyle Font-Overline="True" Font-Size="XX-Large" Width="600px" />
+                <DynamicSelectedStyle Font-Size="XX-Large" Width="60px" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+            <br />
+            <br />
+
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+           
+            <br />
+            <br />
+        </div>
+    </form>
+</body>
+</html>
